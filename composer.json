@@ -1,0 +1,15 @@
+{
+    "name": "jaystrong2024/testprivate",
+    "description": "composer私有包",
+    "type": "library",
+    "require": {
+        "php": "~7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Testprivate\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
